@@ -2,9 +2,11 @@ plugins {
 	id 'org.springframework.boot' version '3.3.0'
 	id 'io.spring.dependency-management' version '1.1.5'
 	id 'java'
+	id 'jacoco'
+	id 'maven-publish'
 }
 
-group = 'com.local.boot'
+group = 'com.raven.boot'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
