@@ -1,10 +1,10 @@
-package com.REST_API_book.java.Services;
+package com.springboot.bookservice.Services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.REST_API_book.java.Entities.Book;
-import com.REST_API_book.java.Repository.BookRepository;
+import com.springboot.bookservice.Entities.Book;
+import com.springboot.bookservice.Repository.BookRepository;
 
 @Service
 public class CreateBookService {

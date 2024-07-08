@@ -1,9 +1,13 @@
-package com.REST_API_book.java.Controller;
+package com.springboot.bookservice.Controller;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
+import com.springboot.bookservice.Entities.Book;
+import com.springboot.bookservice.Services.CreateBookService;
+import com.springboot.bookservice.Services.DeleteBookService;
+import com.springboot.bookservice.Services.GetBookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
@@ -16,11 +20,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.REST_API_book.java.Entities.Book;
-import com.REST_API_book.java.Services.CreateBookService;
-import com.REST_API_book.java.Services.DeleteBookService;
-import com.REST_API_book.java.Services.GetBookService;
 
 import jakarta.validation.ConstraintViolationException;
 import jakarta.validation.Valid;

@@ -1,4 +1,4 @@
-package com.REST_API_book.java.Entities;
+package com.springboot.bookservice.Entities;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 

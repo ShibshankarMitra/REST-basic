@@ -1,9 +1,8 @@
-package com.REST_API_book.java.Repository;
+package com.springboot.bookservice.Repository;
 
+import com.springboot.bookservice.Entities.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import com.REST_API_book.java.Entities.Book;
 
 @Repository
 public interface JpaRepo extends JpaRepository<Book, Integer>{

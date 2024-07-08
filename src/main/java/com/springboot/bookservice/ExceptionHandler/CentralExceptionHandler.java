@@ -1,4 +1,4 @@
-package com.REST_API_book.java.ExceptionHandler;
+package com.springboot.bookservice.ExceptionHandler;
 
 import java.util.List;
 import java.util.Optional;

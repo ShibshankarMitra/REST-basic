@@ -1,5 +1,6 @@
-package com.REST_API_book.java.Controller;
+package com.springboot.bookservice.Controller;
 
+import com.springboot.bookservice.Helper.FileUploadHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,8 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-
-import com.REST_API_book.java.Helper.FileUploadHelper;
 
 @RestController
 @RequestMapping("/Fileupload")

@@ -1,8 +1,8 @@
-package com.REST_API_book.java.Repository;
+package com.springboot.bookservice.Repository;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 
-import com.REST_API_book.java.Entities.Book;
+import com.springboot.bookservice.Entities.Book;
 
 
 //For Paging and Sorting

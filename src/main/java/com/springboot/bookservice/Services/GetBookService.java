@@ -1,4 +1,4 @@
-package com.REST_API_book.java.Services;
+package com.springboot.bookservice.Services;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,9 +8,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.REST_API_book.java.Entities.Book;
-import com.REST_API_book.java.Repository.BookPageRepository;
-import com.REST_API_book.java.Repository.BookRepository;
+import com.springboot.bookservice.Entities.Book;
+import com.springboot.bookservice.Repository.BookPageRepository;
+import com.springboot.bookservice.Repository.BookRepository;
 
 @Service
 public class GetBookService {

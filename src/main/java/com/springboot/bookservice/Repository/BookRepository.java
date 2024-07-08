@@ -1,4 +1,4 @@
-package com.REST_API_book.java.Repository;
+package com.springboot.bookservice.Repository;
 
 import java.util.List;
 import org.springframework.data.jpa.repository.Modifying;
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import com.REST_API_book.java.Entities.Book;
+import com.springboot.bookservice.Entities.Book;
 import jakarta.transaction.Transactional;
 
 //Since it extends CrudRepository no need to annotate as @Repository
