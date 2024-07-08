@@ -10,7 +10,6 @@ spring:
       enabled: 'true'
       max-file-size: 200MB
     jpa:
-      properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
         ddl-auto: update     
