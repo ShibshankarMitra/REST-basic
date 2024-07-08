@@ -15,8 +15,8 @@ spring:
         ddl-auto: update     
 server:
   servlet:
-    context-path: /RESTAPI/
-  port: 8081
+    context-path:
+  port: 8080
   
 management:
      endpoints:
