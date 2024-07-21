@@ -5,7 +5,7 @@ plugins {
 	id 'jacoco'
 }
 
-group = 'com.springboot.survey'
+group = 'com.springboot.bookservice'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
@@ -14,29 +14,12 @@ repositories {
 }
 
 dependencies {
-
-	//spring parent
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
-
-	//my sql connector
 	implementation 'mysql:mysql-connector-java:8.0.28'
-
-	//flyway schema migration administration
-	implementation 'org.flywaydb:flyway-core'
-	implementation 'org.flywaydb:flyway-mysql'
-
-
-	//unit test
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
-
-	//lombok
-	compileOnly 'org.projectlombok:lombok:1.18.34'
-	annotationProcessor 'org.projectlombok:lombok:1.18.34'
-	testCompileOnly 'org.projectlombok:lombok:1.18.34'
-	testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
 }
 
 test {
