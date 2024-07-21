@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    url: jdbc:mysql://localhost:3306/bookrest
-    name: bookrest
+    url: jdbc:mysql://localhost:3306
+    name: survey
     password: root
   servlet:
      multipart:
@@ -17,7 +17,7 @@ spring:
     user: root
     password: root
     url: jdbc:mysql://localhost:3306
-    schemas : bookrest
+    schemas : survey
     enabled: true
     locations: classpath:db/migration
     validate-on-migrate: true
