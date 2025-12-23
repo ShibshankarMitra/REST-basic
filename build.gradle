@@ -3,6 +3,7 @@ plugins {
 	id 'io.spring.dependency-management' version '1.1.5'
 	id 'java'
 	id 'jacoco'
+    id 'org.flywaydb.flyway' version '9.16.3'
 }
 
 group = 'com.springboot.bookservice'
@@ -19,6 +20,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'com.h2database:h2:2.2.220'
+    implementation 'org.flywaydb:flyway-core:9.16.3'
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 

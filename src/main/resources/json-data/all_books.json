@@ -1,0 +1,56 @@
+[
+  {
+    "id": 2001,
+    "title": "Galpoguccho",
+    "author": {
+      "id": 1001,
+      "firstname": "R. N.",
+      "lastname": "Tagore"
+    }
+  },
+  {
+    "id": 2002,
+    "title": "Gitanjali",
+    "author": {
+      "id": 1001,
+      "firstname": "R. N.",
+      "lastname": "Tagore"
+    }
+  },
+  {
+    "id": 2003,
+    "title": "Denaa Pawna",
+    "author": {
+      "id": 1002,
+      "firstname": "Sarat",
+      "lastname": "Chaterjee"
+    }
+  },
+  {
+    "id": 2004,
+    "title": "Kopalkundola",
+    "author": {
+      "id": 1003,
+      "firstname": "Bankim",
+      "lastname": "Chaterjee"
+    }
+  },
+  {
+    "id": 2005,
+    "title": "Debichaudhurani",
+    "author": {
+      "id": 1003,
+      "firstname": "Bankim",
+      "lastname": "Chaterjee"
+    }
+  },
+  {
+    "id": 2006,
+    "title": "Charitahin",
+    "author": {
+      "id": 1002,
+      "firstname": "Sarat",
+      "lastname": "Chaterjee"
+    }
+  }
+]

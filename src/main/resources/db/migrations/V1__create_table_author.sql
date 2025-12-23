@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS author (
+    id SERIAL PRIMARY KEY,
+    firstname VARCHAR(200) NOT NULL,
+    lastname VARCHAR(200) NOT NULL
+);
